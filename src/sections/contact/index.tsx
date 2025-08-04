@@ -25,13 +25,13 @@ const Contact = () => {
               type="text"
               name="nombre"
               placeholder={t("contact.name")}
-              required
+              id={"name"}
             />
             <CustomInput
               type="email"
               name="email"
               placeholder={t("contact.email")}
-              required
+              id={"email"}
             />
             <div>
               <textarea
