@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "contact": "Kontakt",
+    "contactBtn": "Kontaktieren Sie uns",
+    "menu": "Menü"
+  },
+  "hero": {
+    "title": "Installation und technische Gesamtlösungen",
+    "subtitle": "Klimaanlagen, Sanitär, Elektrik, Pools, Solaranlagen und mehr auf Mallorca",
+    "button": "Unsere Dienstleistungen entdecken"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "items": {
+      "climatizacion": {
+        "title": "Klimaanlagen",
+        "description": "Installation und Wartung von Klimaanlagen, Wärmepumpen, Aerothermie und Heizkesseln. Split-, Multisplit- und Industrielösungen."
+      },
+      "fontaneria": {
+        "title": "Sanitär",
+        "description": "Trink- und Abwassersysteme, Reparatur von Lecks, Wasserhähnen, Boilern, Warmwasserbereitern (WWB) und Bewässerung."
+      },
+      "electricidad": {
+        "title": "Elektrik",
+        "description": "Installation von Schaltkästen, Steckdosen, Beleuchtung, Hausautomation, Sensoren und Elektroberichten gemäß aktueller Norm."
+      },
+      "piscinas": {
+        "title": "Poolwartung",
+        "description": "Überprüfung, Inbetriebnahme, Pumpen, Filteranlagen, Chlorgeräte und Winterwartung von Pools."
+      },
+      "integral": {
+        "title": "Umfassende Wartung",
+        "description": "Verträge für Gemeinschaften und Unternehmen. 24h-Support und Überwachung kritischer Anlagen."
+      },
+      "complementarios": {
+        "title": "Zusätzliche Dienstleistungen",
+        "description": "Installation von Solaranlagen, Wasseraufbereitung, Bewässerung, Brunnenpumpen und Energiezertifikate."
+      }
+    }
+  },
+  "about": {
+    "title": "Über Uns",
+    "paragraph1": "Inebal (Instaladora Eléctrica y Frío Balear) wurde mit dem Ziel gegründet, hochwertige Dienstleistungen in den Bereichen Elektroinstallationen, Klimaanlagen und Industriekälte auf Mallorca anzubieten.",
+    "paragraph2": "Als junges Unternehmen setzen wir auf Innovation, Kundenorientierung und technische Exzellenz in jedem Projekt. Unser Team bildet sich ständig weiter, um mit den neuesten Technologien Schritt zu halten.",
+    "paragraph3": "Ob für Wohnhäuser, Geschäftsräume oder Industrieanlagen – wir bieten maßgeschneiderte Lösungen mit klarem Fokus: Effizienz, Sicherheit und Nähe."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "button": "Nachricht senden"
+  },
+  "footer": {
+    "description": "Inebal ist ein junges Unternehmen, das sich auf Elektroinstallationen, Klimaanlagen und Industriekälte auf Mallorca spezialisiert hat.",
+    "sections": "Bereiche",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

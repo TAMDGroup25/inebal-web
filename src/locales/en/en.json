@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "contactBtn": "Get in Touch",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Comprehensive Installation and Technical Maintenance",
+    "subtitle": "Air conditioning, plumbing, electricity, pools, solar energy and more in Mallorca",
+    "button": "Explore our services"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": {
+      "climatizacion": {
+        "title": "Air Conditioning",
+        "description": "Installation and maintenance of air conditioning systems, heat pumps, aerothermal systems, and boilers. Split, multisplit, and industrial solutions."
+      },
+      "fontaneria": {
+        "title": "Plumbing",
+        "description": "Drinking water and sanitation systems, leak repairs, faucets, water heaters, boilers, DHW systems, and irrigation."
+      },
+      "electricidad": {
+        "title": "Electricity",
+        "description": "Installation of panels, outlets, lighting, home automation, sensors, and certified electrical reports."
+      },
+      "piscinas": {
+        "title": "Pool Maintenance",
+        "description": "Inspection, setup, pumps, filters, chlorinators, and winter pool maintenance."
+      },
+      "integral": {
+        "title": "Comprehensive Maintenance",
+        "description": "Contracts for communities and companies. 24h support and monitoring of critical systems."
+      },
+      "complementarios": {
+        "title": "Additional Services",
+        "description": "Installation of solar panels, water treatment, irrigation, well pumps, and energy certifications."
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph1": "Inebal (Instaladora Eléctrica y Frío Balear) was born with the mission to provide high-quality services in the fields of electrical installations, air conditioning, and industrial refrigeration in Mallorca.",
+    "paragraph2": "As a young company, we are committed to innovation, customer satisfaction, and technical excellence in every project. Our team undergoes constant training to stay up to date with the latest technologies in the industry.",
+    "paragraph3": "Whether for homes, commercial spaces, or industrial facilities, we offer tailor-made solutions with a clear focus: efficiency, safety, and proximity."
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "button": "Send message"
+  },
+  "footer": {
+    "description": "Inebal is a young company specialized in electrical installations, air conditioning, and industrial refrigeration in Mallorca.",
+    "sections": "Sections",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}
