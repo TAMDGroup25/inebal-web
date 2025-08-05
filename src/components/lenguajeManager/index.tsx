@@ -5,13 +5,9 @@ const LanguageManager = () => {
   const { i18n, t } = useTranslation();
 
   useEffect(() => {
-    // Cambiar el idioma del HTML
     document.documentElement.lang = i18n.language;
-
-    // Cambiar el título
     document.title = t("seo.title");
 
-    // Función para actualizar una etiqueta <meta>
     const updateMeta = (nameOrProperty: string, content: string, isProperty = false) => {
       const selector = isProperty ? `meta[property='${nameOrProperty}']` : `meta[name='${nameOrProperty}']`;
       let meta = document.querySelector(selector);
@@ -24,10 +20,35 @@ const LanguageManager = () => {
       meta.setAttribute("content", content);
     };
 
-    // Actualizar metadatos
     updateMeta("description", t("seo.description"));
     updateMeta("og:title", t("seo.title"), true);
     updateMeta("og:description", t("seo.description"), true);
+    updateMeta("og:url", window.location.href, true);
+
+    // Canonical link
+    let canonical = document.querySelector("link[rel='canonical']");
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.setAttribute("rel", "canonical");
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute("href", window.location.href);
+
+    // Optional: hreflang for multilingual SEO
+    const languages = ["es", "en", "de"];
+    languages.forEach((lng) => {
+      let link = document.querySelector(`link[rel='alternate'][hreflang='${lng}']`);
+      if (!link) {
+        link = document.createElement("link");
+        link.setAttribute("rel", "alternate");
+        link.setAttribute("hreflang", lng);
+        document.head.appendChild(link);
+      }
+      const path = window.location.pathname.replace(/^\/(es|en|de)/, "");
+      const href = `${window.location.origin}/${lng}${path}`;
+      link.setAttribute("href", href);
+    });
+
   }, [i18n.language, t]);
 
   return null;
